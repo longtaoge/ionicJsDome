@@ -133,6 +133,18 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
               }
           }
       })
+      .state('tab.js.events', {
+          url: "/events",
+          views: {
+              'menuContent': {
+                  templateUrl: "templates/jsdome/events.html"
+                  ,controller:'EventsCtrl'
+              }
+          }
+      })
+
+
+
 
 
 

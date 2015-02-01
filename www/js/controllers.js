@@ -80,6 +80,12 @@ angular.module('starter.controllers', [])
     .controller('ContentCtrl', function($scope) {
 
 
+    /*content*/
+
+
+    })    .controller('EventsCtrl', function($scope) {
+
+
 
 
 
