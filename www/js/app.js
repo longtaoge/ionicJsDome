@@ -53,7 +53,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 
 
 
-      .state('tab.js', {
+      .state('tab.js', {//JS 测试的Tab
           url: '/js',
           abstract: true,
           views: {
@@ -64,7 +64,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
           }
       })
 
-      .state('tab.js.actionsheet', {
+      .state('tab.js.actionsheet', { //actionseet  活动表格 测试
           url: "/actionsheet",
           views: {
               'menuContent': {
@@ -72,7 +72,8 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
                   ,controller:'ActionSheetCtrl'
               }
           }
-      })     .state('tab.js.backdrop', {
+      })
+      .state('tab.js.backdrop', {//backdrop 背景变暗测试
           url: "/backdrop",
           views: {
               'menuContent': {
@@ -82,7 +83,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
           }
       })
 
-      .state('tab.js.content', {
+      .state('tab.js.content', { //content 组件测试
           url: "/content",
           views: {
               'menuContent': {
@@ -91,7 +92,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
               }
           }
       })
-      .state('tab.js.events', {
+      .state('tab.js.events', { //events 测试
           url: "/events",
           views: {
               'menuContent': {
